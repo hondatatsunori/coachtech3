@@ -1,7 +1,4 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 70px;
   padding: 0 30px ;
   background-color: #fff;
@@ -9,6 +6,12 @@
   left: 0;
   top: 0;
   z-index: 1;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-ttl {
@@ -77,6 +80,20 @@
   line-height: 1.5em;
 }
 
+.service-ttl {
+  margin-top: 70px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
   #menu {
     width: 40px;
@@ -85,7 +102,7 @@
   }
 
   #menu span {
-    
+
   }
 
   .menu-line-top {
