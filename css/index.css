@@ -85,7 +85,7 @@
   font-size: 2em;
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding-top: 30px;
 }
 
 .service-list {
@@ -95,10 +95,13 @@
 
 .service-item {
   display: inline-block;
-  width: 35%;
+  width: 45%;
+  margin-top: 30px;
 }
 
-
+.service-item-img {
+  
+}
 
 
 
