@@ -104,8 +104,8 @@
   margin-right: 0;
 }
 
-.service-item-img {
-  width: 30%;
+.service-item-img img {
+  width: 80%;
 }
 
 .service-item-ttl {
