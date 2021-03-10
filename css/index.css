@@ -104,6 +104,10 @@
   margin-right: 0;
 }
 
+.service-item-img {
+  width: 30%;
+}
+
 .service-item-ttl {
   font-weight: bold;
   font-size: 18px;
