@@ -92,7 +92,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  position: relative;
 }
 
 .service-item {
@@ -105,8 +104,8 @@
   margin-right: 0;
 }
 
-.service-item-img img {
-  width: 30%;
+.service-item-img {
+  width: 80%;
 }
 
 .service-item img {
