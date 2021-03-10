@@ -91,18 +91,31 @@
 .service-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .service-item {
-  display: inline-block;
-  width: 45%;
-  margin-top: 30px;
+  width: 49%;
+  margin-top: 20px;
+  margin-right: calc(100% - (49% * 2));
 }
 
-.service-item-img {
-  
+.service-item:nth-child(2n) {
+  margin-right: 0;
 }
 
+.service-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.service-item-description {
+  line-height: 1.5;
+}
+
+.service-btn {
+  margin: 40px auto 0;
+}
 
 
 @media screen and (max-width: 768px) {
