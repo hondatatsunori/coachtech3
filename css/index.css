@@ -33,6 +33,16 @@
    text-decoration: none;
  }
 
+ .open , .close {
+   display: none;
+ }
+
+ .sedemenu {
+   position: absolute;
+   top: 0;
+
+ }
+
 .top-mv {
   height: 80vh;
   width: 100%;
@@ -170,8 +180,8 @@
     bottom: 0;
   }
 
-  .menu .open {
-    
+  .open , .close {
+    display: block;
   }
   
   .header-nav {
