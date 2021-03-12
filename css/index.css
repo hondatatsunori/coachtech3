@@ -33,8 +33,13 @@
    text-decoration: none;
  }
 
- .open , .close , .in , .sidemenu {
+ .open , .close , .sidemenu {
    display: none;
+ }
+
+ input[type=checkbox] {
+   position: absolute;
+   left: -50vw;
  }
 
 .top-mv {
@@ -143,7 +148,6 @@
   }
   
   .menu {
-    display: inline-block;
     width: 36px;
     height: 34px;
     cursor: pointer;
@@ -177,13 +181,26 @@
   .open , .close {
     display: block;
   }
+
+  input[type=checkbox]:checked ~ .sidemenu {
+    left: 0px;
+    transition: 0.5s;
+  }
+
+  input[type=checkbox]:checked ~ .return {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .8;
+    transition: 0.5s;
+  }
   
   .header-nav {
     display: none;
   }
 
   .drawer-nav {
-    transform: translateX(100%);
     display: block;
     position: absolute;
     height: 100vh;
@@ -192,7 +209,9 @@
     left: -100%;
     background: #fff;
     transition: .7s;
+    transform: translateX(100%);
   }
+
 
 
 
