@@ -33,14 +33,8 @@
    text-decoration: none;
  }
 
- .open , .close {
+ .open , .close , .in , .sidemenu {
    display: none;
- }
-
- .sedemenu {
-   position: absolute;
-   top: 0;
-
  }
 
 .top-mv {
