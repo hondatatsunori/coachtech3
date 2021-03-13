@@ -1,3 +1,5 @@
+/* ヘッダー */
+
 .header {
   padding: 0 30px ;
   background-color: #fff;
@@ -41,6 +43,8 @@
    position: absolute;
    left: -50vw;
  }
+
+ /* メインビジュアル */
 
 .top-mv {
   height: 80vh;
@@ -90,6 +94,8 @@
   line-height: 1.5em;
 }
 
+/* サービス */
+
 .service {
   width: 70%;
   margin: 0 auto;
@@ -138,6 +144,14 @@
 .service-btn {
   margin: 40px auto 0;
 }
+
+/* ニュース */
+
+.news {
+  
+}
+
+
 
 
 @media screen and (max-width: 768px) {
