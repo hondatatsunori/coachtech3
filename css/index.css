@@ -148,7 +148,23 @@
 /* ニュース */
 
 .news {
-  
+  background: #000;
+}
+
+.news-innner {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-ttl {
+  color: #fff;
+  font-size: 28px;
 }
 
 
@@ -197,6 +213,7 @@
   }
 
   input[type=checkbox]:checked ~ .sidemenu {
+    display: block;
     left: 0px;
     transition: 0.5s;
   }
@@ -210,6 +227,10 @@
     transition: 0.5s;
   }
   
+  .in {
+    transform: translateX(100%);
+  }
+
   .drawer-nav {
     display: block;
     position: absolute;
@@ -219,9 +240,13 @@
     left: -100%;
     background: #fff;
     transition: .7s;
-    transform: translateX(100%);
   }
   
+  .drawer-nav-item {
+    text-decoration: none;
+  }
+
+
   .header-nav {
     display: none;
   }
