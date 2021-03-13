@@ -196,10 +196,6 @@
     transition: 0.5s;
   }
   
-  .header-nav {
-    display: none;
-  }
-
   .drawer-nav {
     display: block;
     position: absolute;
@@ -211,7 +207,10 @@
     transition: .7s;
     transform: translateX(100%);
   }
-
+  
+  .header-nav {
+    display: none;
+  }
 
 
 
