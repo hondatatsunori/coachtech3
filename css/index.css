@@ -242,10 +242,11 @@
     transition: .7s;
   }
   
-  .drawer-nav-item {
+  .drawer-nav-item a {
     text-decoration: none;
   }
 
+ 
 
   .header-nav {
     display: none;
