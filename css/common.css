@@ -1,3 +1,4 @@
+
 .btn {
   display: block;
   width: 300px;
@@ -9,10 +10,30 @@
   text-decoration: none;
 }
 
+.top-news-btn {
+  width: 160px;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .ptb-m {
   padding: 80px 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+img {
+  width: 100%;
+}
 
 @media screen and (max-width: 768px) {
   .header {
