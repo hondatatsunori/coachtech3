@@ -220,7 +220,43 @@ input[type=checkbox] {
   margin: 40px auto 0;
 }
 
-.top-item-link
+.top-company-list {
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 0;
+}
+
+.top-company-item {
+  width: 50%;
+}
+
+.top-company-item-link {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 10;
+}
+
+.top-company-link {
+  background:#cd0224;
+}
+
+.top-recruit-link {
+  background: #000;
+}
+
+.bottom-contact {
+  text-align: center;
+  background: #f5f6f9;
+}
+
+.bottom-contact-txt {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 768px) {
   .wrap {
@@ -235,4 +271,26 @@ input[type=checkbox] {
   .top-service-item {
     width: 100%;
   }
+
+  .top-news-item {
+    padding: 0;
+  }
+
+  .top-news-item-link {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .top-news-head {
+    font-size: 20px;
+  }
+
+  .top-blog-item {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  
+
+
 }
