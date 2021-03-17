@@ -1,0 +1,32 @@
+/* service */
+
+.service {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.service-list {
+  align-items: center;
+}
+
+.service-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item img {
+  width: 35%;
+}
+
+.service-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0.7em 0;
+}
+
+.service-item-description {
+  line-height: 1.5;
+}
+

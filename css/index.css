@@ -1,53 +1,5 @@
-/* ヘッダー */
 
-.header {
-  padding: 0 30px ;
-  background-color: #fff;
-  position: sticky;
-  left: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.header-wrap {
-  height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-ttl {
-  font-size: 26px;
-} 
-
-.header-nav-list {
-  display: flex;
-  list-style: none;
-}
-
-.header-nav-item {
-  margin-right: 30px;
-  font-size: 16px;
-  font-weight: bold;
-}
- 
-.header-nav a {
-   color: #000;
-   text-decoration: none;
- }
-
- /* ハンバーガー */
-
-.drawer-content {
-  display: none;
-}
-
-input[type=checkbox] {
-  position: absolute;
-  left: -50vw;
-}
-
- /* メインビジュアル */
+/* top-mv */
 
 .top-mv {
   height: 80vh;
@@ -73,6 +25,8 @@ input[type=checkbox] {
   padding-top: 3%;
 }
 
+/* .top-feature */
+
 .top-feature {
   color: #fff;
   background: #222222;
@@ -93,7 +47,7 @@ input[type=checkbox] {
   line-height: 1.5em;
 }
 
-/* サービス */
+/* top-service */
 
 .top-service {
   width: 70%;
@@ -140,15 +94,10 @@ input[type=checkbox] {
   margin: 40px auto 0;
 }
 
-/* ニュース */
+/* top-news */
 
 .top-news {
   background: #000;
-}
-
-.wrap {
-  width: 1080px;
-  margin: 0 auto;
 }
 
 .top-news-head {
@@ -186,7 +135,7 @@ input[type=checkbox] {
   padding-right: 10px;
 }
 
-/* ブログ */
+/* top-blog */
 
 .top-blog-ttl {
   text-align: center;
@@ -220,6 +169,8 @@ input[type=checkbox] {
   margin: 40px auto 0;
 }
 
+/* top-company */
+
 .top-company-list {
   display: flex;
   align-items: center;
@@ -245,17 +196,10 @@ input[type=checkbox] {
   background:#cd0224;
 }
 
+/* top-recruit */
+
 .top-recruit-link {
   background: #000;
-}
-
-.bottom-contact {
-  text-align: center;
-  background: #f5f6f9;
-}
-
-.bottom-contact-txt {
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -290,7 +234,7 @@ input[type=checkbox] {
     margin: 0 auto;
   }
 
-  
+
 
 
 }
