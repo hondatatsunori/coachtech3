@@ -11,18 +11,32 @@
 }
 
 .service-item {
+  padding: 20px 0;
+  border-top: 1px solid #222;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+.service-item:nth-child(4) {
+  border-bottom: 1px solid #222;
+}
+
+.service-item-img {
+  width: 27%;
+}
+
+.service-item-detail {
+  width: 69%;
+}
+
 .service-item img {
-  width: 35%;
+  width: 100%;
 }
 
 .service-item-ttl {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
   margin: 0.7em 0;
 }
 
