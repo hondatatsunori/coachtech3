@@ -44,3 +44,23 @@
   line-height: 1.5;
 }
 
+
+
+@media screen and (max-width: 768px) {
+  .service-item {
+    display: block;
+  }
+
+  .service-item-img {
+    width: 100%;
+  }
+
+  .service {
+    width: 85%;
+  }
+
+  .service-item-detail {
+    width: 100%;
+  }
+  
+}

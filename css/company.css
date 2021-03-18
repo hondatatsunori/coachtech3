@@ -1,0 +1,19 @@
+.company-info {
+  width: 100%;
+  border-bottom: 1px solid #222;
+}
+
+.company-info-name,
+.company-info-date {
+  border-top: 1px solid #222;
+  padding: 20px 0;
+}
+
+.company-info-name {
+  width: 30%;
+  font-weight: bold;
+}
+
+.company-info-date {
+  width: 70%;
+}

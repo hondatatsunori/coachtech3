@@ -203,11 +203,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .wrap {
-    width: 85%;
-    line-height: 1.5;
-  }
-
   .top-service {
     width: 85%;
   }

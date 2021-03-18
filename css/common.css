@@ -101,6 +101,11 @@ img {
   margin: 0 auto;
 }
 
+.wrap-s {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* page-mv */
 
 .page-mv {
@@ -148,11 +153,20 @@ img {
   padding: 0 10px;
 }
 
-.footer-nav-item:after:nth-child(7) {
-  display: none;
+li:last-child::after {
+  content: none;
 }
 
 @media screen and (max-width: 768px) {
+  .wrap {
+    width: 85%;
+    line-height: 1.5;
+  }
+
+  .wrap-s {
+    width: 90%;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,37 @@
+
+.recruit-type:not(:first-child) {
+  margin-top: 80px;
+}
+
+.recruit-type-ttl {
+  font-size: 25px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #222;
+}
+
+.recruit-type-description {
+  margin-top: 30px;
+}
+
+.recruit-type-info {
+  margin-top: 30px; 
+  width: 100%;
+  border: 1px solid #222;
+}
+
+.recruit-type-info-name {
+  width: 30%;
+  font-weight: bold;
+  background: #f5f6f9;
+  border-right: 1px solid #222;
+}
+
+.recruit-type-info-date {
+  width: 70%
+}
+
+.recruit-type-info-name,
+.recruit-type-info-date {
+  padding: 10px;
+  border-top: 1px solid #222;
+}
