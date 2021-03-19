@@ -138,6 +138,7 @@ img {
 
 .footer-inner {
   display: flex;
+  flex-wrap: wrap;
   font-size: 12px;
   align-items: center;
   justify-content: space-between;
